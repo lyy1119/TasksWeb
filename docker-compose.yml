@@ -1,0 +1,9 @@
+services:
+  tasksweb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tasks_web
+    ports:
+      - "8088:80"              # 宿主机 80 -> 容器 80
+    restart: unless-stopped
