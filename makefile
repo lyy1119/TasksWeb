@@ -1,4 +1,4 @@
-default:
+default: openapi docker_start
 	echo "not complete yet"
 
 docker_start:

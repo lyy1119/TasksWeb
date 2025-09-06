@@ -63,7 +63,7 @@ Delete a task
 import TasksServerApi from 'tasks_server_api';
 
 let apiInstance = new TasksServerApi.TasksApi();
-let id = 56; // Number | 
+let id = 789; // Number | 
 apiInstance.tasksIdDelete(id, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -106,7 +106,7 @@ Get a task by ID
 import TasksServerApi from 'tasks_server_api';
 
 let apiInstance = new TasksServerApi.TasksApi();
-let id = 56; // Number | 
+let id = 789; // Number | 
 apiInstance.tasksIdGet(id, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -149,7 +149,7 @@ Update a task
 import TasksServerApi from 'tasks_server_api';
 
 let apiInstance = new TasksServerApi.TasksApi();
-let id = 56; // Number | 
+let id = 789; // Number | 
 let taskUpdate = new TasksServerApi.TaskUpdate(); // TaskUpdate | 
 apiInstance.tasksIdPut(id, taskUpdate, (error, data, response) => {
   if (error) {

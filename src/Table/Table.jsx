@@ -19,6 +19,6 @@ const columns = [
         }
     ];
 
-export default function TaskTable(props) {
+export default function TaskTable() {
     
 }

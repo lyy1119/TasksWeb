@@ -1,6 +1,5 @@
 .babelrc
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 docs/DefaultApi.md
@@ -28,13 +27,3 @@ src/model/TaskUpdate.js
 src/model/User.js
 src/model/UserCreate.js
 src/model/UserUpdate.js
-test/api/DefaultApi.spec.js
-test/api/TasksApi.spec.js
-test/api/UsersApi.spec.js
-test/model/HealthzGet200Response.spec.js
-test/model/Task.spec.js
-test/model/TaskCreate.spec.js
-test/model/TaskUpdate.spec.js
-test/model/User.spec.js
-test/model/UserCreate.spec.js
-test/model/UserUpdate.spec.js
